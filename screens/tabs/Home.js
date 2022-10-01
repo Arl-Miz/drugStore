@@ -12,7 +12,6 @@ import {
   FlatList,
   ImageBackground,
 } from "react-native";
-import Carousel, { Pagination } from "react-native-snap-carousel-v4";
 import { drugsData, ImageItems, recentlyAdded } from "../../constants/utils";
 import Styles, { COLORS } from "../../constants/styles";
 import { AntDesign } from "@expo/vector-icons";

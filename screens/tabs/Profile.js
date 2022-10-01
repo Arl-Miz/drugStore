@@ -7,12 +7,10 @@ import {
   TouchableOpacity,
 } from "react-native";
 import React, { useContext } from "react";
-import { MainContext } from "../../context/context-store";
 import { AntDesign } from "@expo/vector-icons";
 
 export default function Profile({ navigation, route }) {
   //   console.log(route.params.description);
-  const { theme } = useContext(MainContext);
 
   return (
     <View

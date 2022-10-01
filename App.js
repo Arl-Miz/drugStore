@@ -1,5 +1,3 @@
-import { StatusBar } from "expo-status-bar";
-import { useContext } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 import Main from "./screens/Main";
 
