@@ -15,6 +15,7 @@ import {
 import { drugsData, ImageItems, recentlyAdded } from "../../constants/utils";
 import Styles, { COLORS } from "../../constants/styles";
 import { AntDesign } from "@expo/vector-icons";
+import Loading from "../../components/Loading";
 
 export default Index = ({ navigation }) => {
   const { width, height } = Dimensions.get("screen");
@@ -27,7 +28,8 @@ export default Index = ({ navigation }) => {
         backgroundColor: "#fff",
       }}
     >
-      <StatusBar barStyle="dark-content" />
+      <Loading loading={true} />
+      <StatusBar barStyle="default" />
       <View
         style={{
           marginHorizontal: "5%",

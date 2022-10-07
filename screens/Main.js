@@ -3,6 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { Home, Notification, Plus, Profile, Search } from "./tabs";
 import { View, Text } from "react-native";
 
+import "./../ignoreWarnings";
+
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const Stack = createNativeStackNavigator();
